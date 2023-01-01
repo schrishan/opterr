@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg: linear-gradient(
+    45deg,
+    rgba(27, 36, 122, 1) 1%,
+    rgba(19, 74, 147, 1) 65%,
+    rgba(19, 83, 157, 1) 71%,
+    rgba(1, 214, 254, 1) 100%
+  );
+  --font-family: "Raleway", sans-serif;
+}
+.main-container {
+  min-height: 100vh;
+}
+.optcss-img {
+  width: 85%;
+  height: auto;
+  margin: -30px 0 0;
+}
+.page-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-intro h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: -20px 0 0;
+}
+.intro {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+}
+.optcss {
+  font-weight: bold;
+}
+.beta-txt {
+  font-size: 10px;
+  top: -10px;
+  right: 0;
+  color: #0acf83;
+  font-weight: bold;
+}
+.btn {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #0acf83;
+  border-radius: 4px;
+  padding: 8px 15px;
+  min-width: 120px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+.btn:hover {
+  background-color: rgba(10, 207, 131, 0.5);
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .vh100 {
+    min-height: 100vh;
+  }
+  .optcss-img {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .optcss-img {
+    width: 600px;
+  }
+  .page-intro h1 {
+    font-size: 50px;
+    margin: -20px 0 0;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .optcss-hero-section {
+    margin: -4rem 0 0;
+  }
+  .hero-img-wrp {
+    align-items: center;
+  }
+  .page-intro-wrp {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .optcss-img {
+    width: 800px;
+  }
+  .page-intro h1 {
+    font-size: 60px;
+    margin: -20px 0 0;
+  }
+  .logo {
+    width: 200px;
+  }
+  .intro {
+    font-size: 20px;
+  }
+}
